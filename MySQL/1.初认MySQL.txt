@@ -1,0 +1,66 @@
+
+
+前端（页面：展示、数据）
+后台（连接点：连接数据库JDBC，链接前端（控制视图跳转和给前端传递数据））
+数据库（存数据，txt、excel、word）
+
+1.1为什么学习数据库
+1、岗位需要
+2、现在的世界，大数据的时代
+3、被迫需求：存数据，去IOE
+4、数据库是所有软件体系中最核心的存在：DBA
+
+1.2、什么是数据库
+数据库（DB，Database）
+概念：数据仓库，软件，安装在操纵系统（Win、Mac、linux）之上
+作用：存储数据，管理数据
+
+1.3、数据库分类
+关系型数据库（SQL）
+·MySQL, Oracle, Sql Server, DB2, SQLite
+·通过表和表之间，行和列之间的关系进行数据的存储：学员信息表、考勤表、......
+
+
+非关系型数据库（NoSQL==Not Only SQL）
+·Redis, MongDB
+·非关系型数据库，存储对象，通过第项的自身属性来决定
+
+DBMS（数据库管理系统）
+·数据库的管理软件，科学有效的管理我们的数据，维护和获取数据
+·MySQL，数据库管理系统
+
+
+
+
+
+1.7连接数据库
+
+（采用‘--’注释，所有语句使用‘;’结尾）
+
+命令行连接
+mysql -uroot -p123456 --连接数据库
+
+update mysql.user set authrntication_string=password('123456') where user='root' and Host='localhost'; --修改用户和密码
+flush privileges; --刷新权限
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
