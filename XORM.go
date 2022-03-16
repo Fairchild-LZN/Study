@@ -20,7 +20,7 @@ engine.Logger().SetLevel(core.LOG_DEBUG)设置日志级别
 engine.SetMaxOpenConns(10)最大连接数
 
 同步
-engine.sync2()
+engine.sync2(new(表名))
 
 
 映射
@@ -34,6 +34,8 @@ type UserTable struct {
 	UserAge int64 `xorm:"default 1"`(某列的默认值)
 }
 
+新增记录：
+_, err := engine.
 
 
 
